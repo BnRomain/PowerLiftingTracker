@@ -239,7 +239,7 @@ Cela permet de :
 - **Reload à noter : 27,5** (juste le lest)
 - **e1RM calculé : 117,7 kg** (basé sur 26,25 + 73,5 + 0,6)
 
-
+![Exemple traction](img/tracSheet.png)
 
 ---
 
@@ -247,7 +247,7 @@ Cela permet de :
 
 ### 6.1 Average e1RM (e1RM moyen)
 
-**Où le trouver ?** Section "e1rm moyen" en haut à droite de chaque feuille semaine (colonnes G)
+**Où le trouver ?** Section "Average e1rm" en haut à droite de chaque feuille semaine (colonnes G et H)
 
 **Ce que c'est :**
 - La **moyenne** de tous les e1RM calculés dans la semaine pour chaque exercice
@@ -269,6 +269,15 @@ Cette valeur sera AUTOMATIQUEMENT utilisée comme MAX (C3) pour la Semaine 2
 - **Pas besoin de copier-coller manuellement** les valeurs d'une semaine à l'autre
 - Les MAX se mettent à jour automatiquement en fonction de vos performances réelles
 - Approche **conservatrice** : la moyenne lisse les variations et évite de surestimer vos capacités
+
+### 6.2 Section Progress (Progression)
+
+**Où le trouver ?** A côté de la section Average e1rm
+
+**Ce que c'est :**
+- La **différence** entre les MAXs rentré en début de semaine et l'e1rm moyen réalisé une fois la semaine finie.
+- En vert si positif (Amélioration) et en rouge sinon
+
 
 
 ### 6.2 Indice de fatigue
