@@ -552,8 +552,8 @@ The system works in a **completely automatic** way:
 ## 📧 Support
 
 For any questions or suggestions:
-- Email: romainben31@gmail.com
-- GitHub Issues: [link to issues]
+- 📧 Email : romainben31@gmail.com
+- 🔗 LinkedIn : [romainben](https://www.linkedin.com/in/romainben/)
 
 ---
 
