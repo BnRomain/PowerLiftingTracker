@@ -159,15 +159,18 @@ Pour chaque exercice, voici les colonnes importantes :
 | **J** | Reload | Charge réelle utilisée | 110 kg |
 | **K** | RPE réel | RPE ressenti après la série | 6 |
 
-
+![Screen séance remplie](img/SeanceFaite.png)
 
 **Note :** Pour Pull-ups et Dips, voir la section dédiée ci-dessous.
 
-#### Colonne calculée (indice de fatigue)
+#### Colonne calculée automatiquement (non visibles)
 
 | Colonne | Nom | Description |
 |---------|-----|-------------|
 | **N** | Indice fatigue | Différence RPE réel - RPE prévu |
+| **I** | Intensité théorique | Intensité de l'effort prévue |
+| **L** | Intensité réelle | Intensité de l'effort réalisé |
+| **O,P,Q** | Infos séances | Relevé des infos pour les graphiques |
 
 ### Les labels (colonne B)
 
@@ -178,9 +181,13 @@ Pour chaque exercice, voici les colonnes importantes :
 | **dl** | Deadlift | Mouvements de soulevé de terre principaux |
 | **pu** | Pull-ups | Tractions lestées |
 | **dp** | Dips | Dips lestés |
-| **ac** | Accessoires | Exercices d'assistance (ne calculent pas d'e1RM ni d'Eload) |
+| **ac** | Accessoires | Exercices d'assistance (pas inclue dans les maxs --> pas d'Eload) |
 
-**⚠️ Important :** L'**Eload** (colonne H) est calculé **uniquement** pour les labels **sq, bn, dl, pu, dp**. Les exercices accessoires (ac) n'ont pas d'Eload calculé.
+**⚠️ Important :** Quand vous mettez un exercice dans une séance, c'est à vous de choisir à quel label appartient l'exercice.
+
+
+
+L'**Eload** (colonne H) est calculé **uniquement** pour les labels **sq, bn, dl, pu, dp**. Les exercices accessoires (ac) n'ont pas d'Eload calculé. Le but est de traquer les mouvements de Power, si vous mettez des accessoirs, le calcule de l'e1rm en colonne M sera bien fait mais il n'y aura pas de suivie.
 
 ### Exemple complet de remplissage
 
