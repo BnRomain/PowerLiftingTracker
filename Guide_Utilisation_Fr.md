@@ -141,7 +141,7 @@ Pour chaque exercice, voici les colonnes importantes :
 | **F** | Reps | Nombre de répétitions | 4 |
 | **G** | RPE | RPE prévu | 7 |
 
-
+![Screen d'une séance](img/SeanceSheet.png)
 
 **Note :** La colonne **C (Jour)** n'est à remplir que sur la première ligne de chaque bloc de séance pour vous repérer. Vous pouvez y indiquer le jour de la semaine sur lequel vous faites la séance. Elle n'a aucun impact sur les calculs.
 
@@ -158,6 +158,8 @@ Pour chaque exercice, voici les colonnes importantes :
 |---------|-----|-------------|---------|
 | **J** | Reload | Charge réelle utilisée | 110 kg |
 | **K** | RPE réel | RPE ressenti après la série | 6 |
+
+
 
 **Note :** Pour Pull-ups et Dips, voir la section dédiée ci-dessous.
 
