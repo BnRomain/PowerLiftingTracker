@@ -9,7 +9,7 @@ Any contribution — feedback, bug reports, or improvements — is greatly appre
 
 If you find a bug or incorrect calculation:
 
-1. Go to **GitHub Issues**
+1. Go to **GitHub Issues** [here](https://github.com/BnRomain/PowerLiftingTracker/issues)
 2. Click **New Issue**
 3. Choose **Bug Report**
 4. Include:
@@ -17,9 +17,6 @@ If you find a bug or incorrect calculation:
    - What actually happened
    - Screenshots or formulas if possible
    - The exercise / week / sheet concerned
-
-👉 Please **do not modify the public Google Sheet** directly.  
-Always work on a copy of the template.
 
 ---
 
