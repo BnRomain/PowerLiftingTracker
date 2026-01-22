@@ -48,7 +48,7 @@ Dans la section **"MAXs"** (cellules **C3 à C7**), entrez vos e1RM de référen
 
 ### Étape 2 : Remplir votre bodyweight
 
-Le bodyweight est séparé des MAX et se remplit à chaque séance.
+Le bodyweight est séparé des MAX et se remplit à chaque séance. Pensez à remplir le poids de votre de ceinture de leste en A10.
 
 #### Bodyweight par séance (colonne A)
 
@@ -56,11 +56,13 @@ Dans la colonne **A** (cellules A12, A22, A32, A42, A52), entrez votre poids de 
 
 | Séance | Cellule | Exemple |
 |--------|---------|---------|
-| Lundi | A12 | 79,5 kg |
-| Mardi | A22 | 80,2 kg |
-| Jeudi | A32 | 80,0 kg |
-| Vendredi | A42 | 79,8 kg |
-| Dimanche | A52 | 80,1 kg |
+| Lundi | A12 | 73,5 kg |
+| Mardi | A22 | 73,9 kg |
+| Jeudi | A32 | 73,2 kg |
+| Vendredi | A42 | 73,5 kg |
+| Dimanche | A52 | 74,2 kg |
+
+![Screen Body](img/body_sheet.png)
 
 **💡 Notes importantes :**
 - **Pas obligatoire de remplir toutes les séances** : Le système calcule la moyenne uniquement sur les cellules remplies. Si vous ne remplissez que 3 bodyweights sur 5 séances, la moyenne sera calculée sur ces 3 valeurs.
