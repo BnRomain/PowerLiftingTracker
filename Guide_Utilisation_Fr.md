@@ -68,7 +68,7 @@ Dans la colonne **A** (cellules A12, A22, A32, A42, A52), entrez votre poids de 
 - **Pas obligatoire de remplir toutes les séances** : Le système calcule la moyenne uniquement sur les cellules remplies. Si vous ne remplissez que 3 bodyweights sur 5 séances, la moyenne sera calculée sur ces 3 valeurs.
 - **Pas de balance disponible ?** Vous pouvez mettre une **estimation** de votre poids quotidien. Même si c'est moins précis, ça fait largement l'affaire pour les calculs de Pull-ups et Dips.
 
-#### Bodyweight moyen de la semaine (C2)
+#### Bodyweight moyen de la semaine (A60)
 
 - Calculé **automatiquement** à partir des bodyweights quotidiens remplis
 - Utilisé comme référence générale et pour le suivi de l'évolution de votre poids
@@ -76,12 +76,12 @@ Dans la colonne **A** (cellules A12, A22, A32, A42, A52), entrez votre poids de 
 
 **Exemple :**
 ```
-A12: 79,5 kg
+A12: 73,5 kg
 A22: (vide - séance ratée)
-A32: 80,0 kg
-A42: 79,8 kg
+A32: 73,2 kg
+A42: 73,5 kg
 A52: (vide - pas pesé)
-→ Bodyweight moyen (C2) = (79,5 + 80,0 + 79,8) / 3 = 79,8 kg
+→ Bodyweight moyen (C2) = (73,5 + 73,2 + 73,5) / 3 = 73,4 kg
 ```
 
 ---
@@ -140,6 +140,8 @@ Pour chaque exercice, voici les colonnes importantes :
 | **E** | Sets | Nombre de séries | 3 |
 | **F** | Reps | Nombre de répétitions | 4 |
 | **G** | RPE | RPE prévu | 7 |
+
+
 
 **Note :** La colonne **C (Jour)** n'est à remplir que sur la première ligne de chaque bloc de séance pour vous repérer. Vous pouvez y indiquer le jour de la semaine sur lequel vous faites la séance. Elle n'a aucun impact sur les calculs.
 
