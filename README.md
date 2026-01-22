@@ -288,7 +288,7 @@ Want to share your progress? [Submit your story!](https://github.com/yourusernam
 
 **Creator**: Romain Ben  
 **Email**: romainben31@gmail.com  
-**LinkedIn**: [romainben](https://www.linkedin.com/in/romainben/) 
+**LinkedIn**: [romainben](https://www.linkedin.com/in/romainben/)
 **GitHub**: [@BnRomain](https://github.com/BnRomain)
 
 For questions, suggestions, or collaboration:
@@ -312,6 +312,6 @@ If this project helped you track your powerlifting progress, please consider:
 
 **Built with ❤️ for the powerlifting community**
 
-[Get Started](https://docs.google.com/spreadsheets/d/1cMEQfgsgYV3C5RC8sq0Xvccz4UgO5aT8dhn19qVybdU/edit?usp=sharing) • [Documentation](User_Guide_EN.md) • [Support]([#-contact--support](https://github.com/BnRomain/PowerLiftingTracker/discussions))
+[Get Started](https://docs.google.com/spreadsheets/d/1cMEQfgsgYV3C5RC8sq0Xvccz4UgO5aT8dhn19qVybdU/edit?usp=sharing) • [Documentation](User_Guide_EN.md) • [Support](https://github.com/BnRomain/PowerLiftingTracker/discussions)
 
 </div>
