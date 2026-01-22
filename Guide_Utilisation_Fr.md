@@ -46,13 +46,9 @@ Dans la section **"MAXs"** (cellules **C3 à C7**), entrez vos e1RM de référen
 
 ### Étape 2 : Remplir votre bodyweight
 
-Le bodyweight est séparé des MAX et se remplit à **deux endroits** :
+Le bodyweight est séparé des MAX et se remplit à chaque séance.
 
-**a) Bodyweight moyen de la semaine (C2) :**
-- Calculé automatiquement à partir des bodyweights quotidiens
-- Utilisé comme référence générale
-
-**b) Bodyweight par séance (colonne A) :**
+#### Bodyweight par séance (colonne A)
 
 Dans la colonne **A** (cellules A12, A22, A32, A42, A52), entrez votre poids de corps pour chaque jour d'entraînement :
 
@@ -63,6 +59,26 @@ Dans la colonne **A** (cellules A12, A22, A32, A42, A52), entrez votre poids de 
 | Jeudi | A32 | 80,0 kg |
 | Vendredi | A42 | 79,8 kg |
 | Dimanche | A52 | 80,1 kg |
+
+**💡 Notes importantes :**
+- **Pas obligatoire de remplir toutes les séances** : Le système calcule la moyenne uniquement sur les cellules remplies. Si vous ne remplissez que 3 bodyweights sur 5 séances, la moyenne sera calculée sur ces 3 valeurs.
+- **Pas de balance disponible ?** Vous pouvez mettre une **estimation** de votre poids quotidien. Même si c'est moins précis, ça fait largement l'affaire pour les calculs de Pull-ups et Dips.
+
+#### Bodyweight moyen de la semaine (C2)
+
+- Calculé **automatiquement** à partir des bodyweights quotidiens remplis
+- Utilisé comme référence générale et pour le suivi de l'évolution de votre poids
+- Ignore les cellules vides
+
+**Exemple :**
+```
+A12: 79,5 kg
+A22: (vide - séance ratée)
+A32: 80,0 kg
+A42: 79,8 kg
+A52: (vide - pas pesé)
+→ Bodyweight moyen (C2) = (79,5 + 80,0 + 79,8) / 3 = 79,8 kg
+```
 
 ---
 
@@ -88,12 +104,12 @@ C'est une échelle de **5 à 10** qui mesure la difficulté d'une série :
 | 5,5 | 4-5 reps de plus | 4,5 RIR |
 | 5 | 5+ reps de plus | 5 RIR |
 
-### Comment utiliser la RPE Chart ?
+### Comment utilisons nous la RPE Chart ?
 
-La RPE Chart se trouve en bas de la feuille. Elle permet de calculer votre e1RM en fonction de :
-- Le **poids** utilisé
-- Le **nombre de répétitions** effectuées
-- Le **RPE** ressenti
+La RPE Chart se trouve en bas de la feuille. Elle permet de calculer votre e1RM en fonction du :
+- **Poids** utilisé
+- **Nombre de répétitions** effectuées
+- **RPE** ressenti
 
 **Exemple :**
 - Vous faites 3 reps à 110 kg avec un RPE de 8
@@ -121,7 +137,7 @@ Pour chaque exercice, voici les colonnes importantes :
 | **F** | Reps | Nombre de répétitions | 4 |
 | **G** | RPE | RPE prévu | 7 |
 
-**Note :** La colonne **C (Jour)** n'est à remplir que sur la première ligne de chaque bloc de séance pour vous repérer. Elle n'a aucun impact sur les calculs.
+**Note :** La colonne **C (Jour)** n'est à remplir que sur la première ligne de chaque bloc de séance pour vous repérer. Vous pouvez y indiquer le jour de la semaine sur lequel vous faites la séance. Elle n'a aucun impact sur les calculs.
 
 #### Colonnes calculées automatiquement (visibles)
 
@@ -129,8 +145,6 @@ Pour chaque exercice, voici les colonnes importantes :
 |---------|-----|-------------|
 | **H** | Eload | Charge prévue calculée selon vos MAX et le RPE |
 | **M** | e1RM | e1RM calculé après la séance |
-
-**Note :** La colonne **I (%)** existe mais est cachée. Elle calcule automatiquement le pourcentage du MAX correspondant au RPE prévu. Vous n'avez pas à vous en soucier.
 
 #### Colonnes à remplir APRÈS la séance (résultats)
 
@@ -254,24 +268,11 @@ Cette valeur sera AUTOMATIQUEMENT utilisée comme MAX (C3) pour la Semaine 2
 - Les MAX se mettent à jour automatiquement en fonction de vos performances réelles
 - Approche **conservatrice** : la moyenne lisse les variations et évite de surestimer vos capacités
 
-**Comment est-il calculé ?**
-```excel
-=ARRONDI(ArrayFormula(SIERREUR(MOYENNE(SI($B$11:$B$57="sq";
-SI(ESTNUM($M$11:$M$57);$M$11:$M$57)));""));1)
-```
-
-Cette formule :
-- Filtre tous les exercices avec le label correspondant (ex: "sq" pour Squat)
-- Calcule la moyenne des e1RM valides uniquement
-- **Ignore automatiquement** les cellules vides, les erreurs, et les séances non effectuées
-- Arrondit à 1 décimale
 
 ### 6.2 Indice de fatigue
 
 **Où le trouver ?**
-- Colonne **N** : Indice par exercice
-- Section statistiques : **Indice moyen hebdomadaire**
-- Graphique : Visualisation par exercice
+Graphique en bas à droite du sheet appellé "Fatigue Index".
 
 **Formule :** `RPE réel - RPE prévu`
 
