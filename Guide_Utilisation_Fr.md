@@ -33,12 +33,14 @@ Bienvenue dans **PowerLift Tracker** ! Ce système vous permet de suivre votre p
 Dans la section **"MAXs"** (cellules **C3 à C7**), entrez vos e1RM de référence pour chaque mouvement principal :
 
 | Exercice | Cellule | Exemple |
-|----------|---------|---------|     [Screen MAX](img/MAXs_sheet.png)
+|----------|---------|---------|
 | Squat | C3 | 135 kg |
 | Bench | C4 | 90 kg |
 | Deadlift | C5 | 190 kg |
 | Pull-ups | C6 | 100 kg |
 | Dips | C7 | 85 kg |
+
+![Screen MAX](img/MAXs_sheet.png)
 
 **💡 Important :** 
 - Pour Pull-ups et Dips, entrez le **poids total** (votre poids + lest habituel)
