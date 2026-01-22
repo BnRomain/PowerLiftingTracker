@@ -264,9 +264,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ## 🏆 Success Stories
 
-> *"I've been using PowerLift Tracker for 3 months and increased my total by 35kg. The automatic load adjustment and fatigue tracking helped me avoid burnout while staying consistent with progression."*  
-> — **User Testimonial**
-
 Want to share your progress? [Submit your story!](https://github.com/yourusername/powerlift-tracker/discussions)
 
 ---
