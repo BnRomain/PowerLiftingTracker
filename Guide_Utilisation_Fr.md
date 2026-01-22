@@ -34,11 +34,11 @@ Dans la section **"MAXs"** (cellules **C3 à C7**), entrez vos e1RM de référen
 
 | Exercice | Cellule | Exemple |
 |----------|---------|---------|
-| Squat | C3 | 135 kg |
-| Bench | C4 | 90 kg |
-| Deadlift | C5 | 190 kg |
-| Pull-ups | C6 | 100 kg |
-| Dips | C7 | 85 kg |
+| Squat | C3 | 126 kg |
+| Bench | C4 | 89 kg |
+| Deadlift | C5 | 187 kg |
+| Pull-ups | C6 | 115 kg |
+| Dips | C7 | 120 kg |
 
 ![Screen MAX](img/MAXs_sheet.png)
 
