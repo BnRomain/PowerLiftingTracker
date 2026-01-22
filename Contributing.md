@@ -9,7 +9,7 @@ Any contribution — feedback, bug reports, or improvements — is greatly appre
 
 If you find a bug or incorrect calculation:
 
-1. Go to **GitHub Issues** [here](https://github.com/BnRomain/PowerLiftingTracker/issues)
+1. Go to [**GitHub Issues**](https://github.com/BnRomain/PowerLiftingTracker/issues)
 2. Click **New Issue**
 3. Choose **Bug Report**
 4. Include:
@@ -104,8 +104,7 @@ Documentation files:
 ## 💬 Questions & Discussion
 
 For questions, ideas, or feedback:
-- Use **GitHub Discussions**
-- Or open an Issue with the label `question`
+- Use [**GitHub Discussions**](https://github.com/BnRomain/PowerLiftingTracker/discussions)
 
 ---
 
