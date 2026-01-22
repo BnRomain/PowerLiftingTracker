@@ -141,8 +141,6 @@ Pour chaque exercice, voici les colonnes importantes :
 | **F** | Reps | Nombre de répétitions | 4 |
 | **G** | RPE | RPE prévu | 7 |
 
-![Screen d'une séance](img/SeanceSheet.png)
-
 **Note :** La colonne **C (Jour)** n'est à remplir que sur la première ligne de chaque bloc de séance pour vous repérer. Vous pouvez y indiquer le jour de la semaine sur lequel vous faites la séance. Elle n'a aucun impact sur les calculs.
 
 #### Colonnes calculées automatiquement (visibles)
@@ -158,8 +156,6 @@ Pour chaque exercice, voici les colonnes importantes :
 |---------|-----|-------------|---------|
 | **J** | Reload | Charge réelle utilisée | 110 kg |
 | **K** | RPE réel | RPE ressenti après la série | 6 |
-
-![Screen séance remplie](img/SeanceFaite.png)
 
 **Note :** Pour Pull-ups et Dips, voir la section dédiée ci-dessous.
 
@@ -185,30 +181,19 @@ Pour chaque exercice, voici les colonnes importantes :
 
 **⚠️ Important :** Quand vous mettez un exercice dans une séance, c'est à vous de choisir à quel label appartient l'exercice.
 
-
+![Choix du label](img/labsheet.png)
 
 L'**Eload** (colonne H) est calculé **uniquement** pour les labels **sq, bn, dl, pu, dp**. Les exercices accessoires (ac) n'ont pas d'Eload calculé. Le but est de traquer les mouvements de Power, si vous mettez des accessoirs, le calcule de l'e1rm en colonne M sera bien fait mais il n'y aura pas de suivie.
 
 ### Exemple complet de remplissage
 
 **Avant la séance (planification) :**
-```
-B11: sq
-C11: Lun          (optionnel, juste pour repère)
-D11: Squat Volume
-E11: 3
-F11: 4
-G11: 7
-→ H11 (Eload) se calcule automatiquement : 109,5 kg
-```
+
+![Screen d'une séance](img/SeanceSheet.png)
 
 **Après la séance (résultats) :**
-```
-J11: 110    (vous avez utilisé 110 kg)
-K11: 6      (c'était plus facile que prévu !)
-→ M11 (e1RM) se calcule automatiquement : 134,6 kg
-→ N11 (Indice fatigue) : -1 (excellente forme)
-```
+
+![Screen séance remplie](img/SeanceFaite.png)
 
 ---
 
@@ -216,7 +201,7 @@ K11: 6      (c'était plus facile que prévu !)
 
 ### Pull-ups et Dips : Particularité
 
-Pour les **Pull-ups (pu)** et **Dips (dp)**, le système prend en compte votre poids de corps dans tous les calculs.
+Pour les **Pull-ups (pu)** et **Dips (dp)**, le système prend en compte votre poids de corps et celui de la ceinture dans tous les calculs.
 
 ### Comment remplir ?
 
@@ -226,11 +211,11 @@ Pour les **Pull-ups (pu)** et **Dips (dp)**, le système prend en compte votre p
 
 **Exemple Pull-ups :**
 ```
-Bodyweight du jour (A12) : 80 kg
+Bodyweight du jour (A12) : 73,5 kg
 Lest sur la ceinture : 20 kg
-Poids de la ceinture : 3 kg (par exemple)
+Poids de la ceinture : 0,6 kg (par exemple)
 → Dans Reload (J12) : Notez 20 (juste le lest)
-→ e1RM calculé : Basé sur 103 kg (80 + 20 + 3)
+→ e1RM calculé : Basé sur 94,1 kg (73,5 + 20 + 0,6)
 ```
 
 ### Pourquoi cette méthode ?
@@ -243,16 +228,18 @@ Cela permet de :
 ### Exemple complet
 
 **Planification :**
-- Pull-up MAX total (C6) : 100 kg
-- Séance prévue : 3×3 @ RPE 8,5 (85% = 85 kg total)
-- Votre poids aujourd'hui (A12) : 80 kg
-- **Eload calculé : 5 kg** (85 - 80 = 5 kg de lest)
+- Pull-up MAX total (C6) : 115 kg
+- Séance prévue : 3×3 @ RPE 8,5 (87,8% = 101 kg total)
+- Votre poids aujourd'hui (A12) : 73,5 kg
+- **Eload calculé : 27,5 kg** (101 - 73,5 - 0,6 = 26,9 kg de lest --> Arrondi à 2,5 pour correspondre au poids de salle de sport)
 
 **Réalisation :**
-- Vous mettez 5 kg sur la ceinture
+- Vous mettez 27,5 kg sur la ceinture
 - RPE ressenti : 8
-- **Reload à noter : 5** (juste le lest)
-- **e1RM calculé : 98,6 kg** (basé sur 5 + 80 + poids ceinture)
+- **Reload à noter : 27,5** (juste le lest)
+- **e1RM calculé : 117,7 kg** (basé sur 26,25 + 73,5 + 0,6)
+
+
 
 ---
 
