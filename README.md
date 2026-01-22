@@ -289,8 +289,8 @@ Want to share your progress? [Submit your story!](https://github.com/yourusernam
 
 **Creator**: Romain Ben  
 **Email**: romainben31@gmail.com  
-**LinkedIn**: [Your LinkedIn Profile]()  
-**GitHub**: [@yourusername](https://github.com/BnRomain)
+**LinkedIn**: [romainben](https://www.linkedin.com/in/romainben/) 
+**GitHub**: [@BnRomain](https://github.com/BnRomain)
 
 For questions, suggestions, or collaboration:
 - 💬 [Open a Discussion](https://github.com/yourusername/powerlift-tracker/discussions)
