@@ -3,7 +3,7 @@
 [![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?logo=google-sheets&logoColor=white)](https://www.google.com/sheets/about/)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-> An intelligent powerlifting tracking system built on Google Sheets, featuring automated e1RM calculations, progressive load management, and fatigue analysis.
+An intelligent powerlifting tracking system built on Google Sheets, featuring automated e1RM calculations, progressive load management, and fatigue analysis.
 
 [📖 User Guide (FR)](Guide_Utilisation_Fr.md) • [📖 User Guide (EN)](User_Guide_EN.md) • [🔗 Get the Template](https://docs.google.com/spreadsheets/d/1cMEQfgsgYV3C5RC8sq0Xvccz4UgO5aT8dhn19qVybdU/edit?usp=sharing) • [🐛 Report Bug](https://github.com/BnRomain/PowerLiftingTracker/issues)
 
@@ -11,11 +11,7 @@
 
 ## 📸 Preview
 
-![Dashboard Overview](img/dashboard-preview.png)
-*Main dashboard showing weekly performance tracking*
-
-![Progress Charts](img/charts-preview.png)
-*10-week progression graphs for all main lifts*
+![Dashboard Overview](img/Dashboard.png)
 
 ---
 
