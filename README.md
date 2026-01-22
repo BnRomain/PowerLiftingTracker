@@ -235,7 +235,7 @@ Contributions are welcome! Here's how you can help:
 4. **Translate** the guide to other languages
 5. **Share your results** and feedback
 
-See [CONTRIBUTING.md](Contributing.md) for detailed guidelines.
+See [Contributing.md](Contributing.md) for detailed guidelines.
 
 ---
 
