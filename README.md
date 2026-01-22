@@ -263,7 +263,7 @@ See [Contributing.md](Contributing.md) for detailed guidelines.
 
 ## 🏆 Success Stories
 
-Want to share your progress? [Submit your story!](https://github.com/yourusername/powerlift-tracker/discussions)
+Want to share your progress? [Submit your story!](https://github.com/BnRomain/PowerLiftingTracker/discussions)
 
 ---
 
