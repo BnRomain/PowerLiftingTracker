@@ -272,18 +272,31 @@ Cette valeur sera AUTOMATIQUEMENT utilisée comme MAX (C3) pour la Semaine 2
 
 ### 6.2 Section Progress (Progression)
 
-**Où le trouver ?** A côté de la section Average e1rm
+**Où le trouver ?** Colonne à côté des Average e1RM
 
 **Ce que c'est :**
-- La **différence** entre les MAXs rentré en début de semaine et l'e1rm moyen réalisé une fois la semaine finie.
-- En vert si positif (Amélioration) et en rouge sinon.
+La différence entre l'e1RM moyen de cette semaine et le MAX de référence de la semaine précédente.
+Vert si positif (Amélioration) et rouge sinon.
 
 ![Section Progress](img/progressSheet.png)
 
+**Formule :** `Average e1RM - MAX de référence`
+
+**Exemple :**
+```
+MAX Squat semaine dernière (C3) : 135 kg
+Average e1RM cette semaine : 137,5 kg
+→ Progression : +2,5 kg (+1,85%)
+```
+
+**Interprétation :**
+- **Positif** : Vous progressez ✅
+- **Négatif** : Vous régressez (fatigue, déload, ou mauvaise semaine)
+- **~0** : Maintien du niveau
+
 ⚠️ Il faut s'y fier qu'une fois la semaine terminer. En effet au début de la semaine, vous avez des Maxs annoncés à 130 kg pour le squat par exemple, mais vous n'avez pas encore réaliser d'exercice squat dans votre semaine. Il est alors afficher dans la section Progress que vous êtes en -130kg sur le squat ce qui est absurde ;).
 
-
-
+![Exemple absurde](img/absSheet.png)
 
 ### 6.3 Indice de fatigue
 
@@ -314,26 +327,79 @@ Moyenne de tous vos indices de fatigue de la semaine
 Exemple : -0,25 = Bonne forme générale
 ```
 
-### 6.3 Progression (Progress)
+### 6.4 Tonnage par semaine
 
-**Où le trouver ?** Colonne à côté des Average e1RM
+**Où le trouver ?**
+Graphique à droite du sheet appelé "Tonnage/Semaine".
 
 **Ce que c'est :**
-La différence entre l'e1RM moyen de cette semaine et le MAX de référence de la semaine précédente
+Le **tonnage** représente le volume total de charge soulevée dans la semaine pour chaque mouvement principal (Squat, Bench, Deadlift).
 
-**Formule :** `Average e1RM - MAX de référence`
+**Formule :** `Charge × Répétitions × Séries` (pour tous les exercices du même type)
 
 **Exemple :**
 ```
-MAX Squat semaine dernière (C3) : 135 kg
-Average e1RM cette semaine : 137,5 kg
-→ Progression : +2,5 kg (+1,85%)
+Squat séance 1 : 3 × 4 @ 110 kg = 1 320 kg
+Squat séance 2 : 2 × 8 @ 100 kg = 1 600 kg
+Squat séance 3 : 3 × 3 @ 120 kg = 1 080 kg
+→ Tonnage total Squat : 4 000 kg
 ```
 
 **Interprétation :**
-- **Positif** : Vous progressez ✅
-- **Négatif** : Vous régressez (fatigue, déload, ou mauvaise semaine)
-- **~0** : Maintien du niveau
+
+| Observation | Signification | Action |
+|-------------|---------------|--------|
+| **Augmentation progressive** | Volume d'entraînement en hausse | Normal dans une progression |
+| **Stagnation** | Volume stable | Peut indiquer un plateau |
+| **Forte baisse** | Déload ou semaine de récupération | Normal si planifié |
+| **Forte hausse** | Augmentation brutale du volume | Attention au risque de surcharge |
+
+**Utilisation :**
+- Suivre l'évolution de votre volume d'entraînement
+- Comparer le volume entre mouvements (Squat vs Bench vs Deadlift)
+- Détecter les semaines de surcharge ou de sous-charge
+- Planifier vos déloads
+
+---
+
+### 6.5 Répétitions par semaine
+
+**Où le trouver ?**
+Graphique à droite du sheet appelé "Reps/Semaine".
+
+**Ce que c'est :**
+Le nombre total de répétitions effectuées dans la semaine pour chaque mouvement principal (Squat, Bench, Deadlift).
+
+**Formule :** `Somme de toutes les répétitions` (pour tous les exercices du même type)
+
+**Exemple :**
+```
+Squat séance 1 : 3 × 4 = 12 reps
+Squat séance 2 : 2 × 8 = 16 reps
+Squat séance 3 : 3 × 3 = 9 reps
+→ Total reps Squat : 37 reps
+```
+
+**Interprétation :**
+
+| Plage | Type d'entraînement | Objectif |
+|-------|---------------------|----------|
+| **< 20 reps** | Volume faible, intensité élevée | Force maximale |
+| **20-40 reps** | Volume modéré | Force et hypertrophie |
+| **40-60 reps** | Volume élevé | Hypertrophie |
+| **> 60 reps** | Volume très élevé | Endurance de force |
+
+**Utilisation :**
+- Vérifier que votre volume de répétitions est cohérent avec vos objectifs
+- Équilibrer le volume entre les 3 mouvements principaux
+- Éviter les déséquilibres (ex: 60 reps de Bench vs 20 reps de Squat)
+- Identifier les semaines à faible volume (déload) vs haute intensité
+
+**💡 Conseil :**
+Pour le powerlifting, un ratio équilibré pourrait être :
+- **Squat : 30-50 reps/semaine**
+- **Bench : 25-45 reps/semaine**
+- **Deadlift : 15-30 reps/semaine** (volume souvent plus faible car plus taxant)
 
 ---
 
@@ -358,7 +424,7 @@ La feuille "Suivi e1RM" récupère automatiquement les données de chaque semain
 
 ### Ce que contient "Suivi e1RM"
 
-#### Tableau de progression
+#### Tableau de progression (Caché mais visible si vous déplacez les graphiques)
 
 | Semaine | Date | Squat | Bench | Deadlift | Pull-ups | Dips |
 |---------|------|-------|-------|----------|----------|------|
@@ -366,25 +432,20 @@ La feuille "Suivi e1RM" récupère automatiquement les données de chaque semain
 | 2 | 13/01/26 | 137,5 | 92 | 197,5 | 103 | 87,5 |
 | ... | ... | ... | ... | ... | ... | ... |
 
-#### Section "Total SBD"
+#### Graphique "Total SBD"
 - **Squat MAX** : e1RM moyen Squat de la semaine
 - **Bench MAX** : e1RM moyen Bench de la semaine
 - **Deadlift MAX** : e1RM moyen Deadlift de la semaine
 - **Total SBD** : Somme des 3 maxs principaux (Squat + Bench + Deadlift)
 - Permet de suivre votre total powerlifting global
 
-#### Section "Pull-ups & Dips MAX"
+#### Graphique "Pull-ups & Dips MAX"
 - **Pull-ups MAX** : e1RM moyen Pull-ups de la semaine (poids total)
 - **Dips MAX** : e1RM moyen Dips de la semaine (poids total)
 
 #### Suivi du poids
 - **Bodyweight moyen** : Poids de corps moyen hebdomadaire
 - Graphique d'évolution sur les 10 semaines
-
-#### Graphiques
-
-1. **Évolution des e1RM** : Courbes de progression des 5 mouvements principaux sur 10 semaines
-2. **Suivi du poids** : Évolution de votre bodyweight moyen
 
 ### Comment l'utiliser
 
@@ -399,18 +460,18 @@ La feuille "Suivi e1RM" récupère automatiquement les données de chaque semain
 
 ### ✅ À FAIRE
 
-- ✅ Remplir votre bodyweight (colonne A) au début de chaque séance
-- ✅ Utiliser les labels corrects (sq/bn/dl/pu/dp/ac)
-- ✅ Noter le RPE réel (colonne K) après chaque série importante
+- ✅ Remplir votre bodyweight et le weigth belt (colonne A) au début de chaque séance
+- ✅ Utiliser les labels corrects pour les exercices (sq/bn/dl/pu/dp/ac)
+- ✅ Noter le RPE réel (colonne K) après chaque série importante ainsi que le Reaload (colonne J)
 - ✅ Pour pull-ups/dips : noter **uniquement le lest** dans Reload (colonne J)
 - ✅ Laisser le système transférer automatiquement les Average e1RM vers les MAX de la semaine suivante
 
 ### ❌ À NE PAS FAIRE
 
 - ❌ Ne **JAMAIS** renommer les feuilles semaines (casse le suivi)
-- ❌ Ne pas modifier les formules dans les colonnes calculées (H, M, N)
+- ❌ Ne pas modifier les formules dans les colonnes calculées
 - ❌ Ne pas mettre le poids total (corps + lest) pour pull-ups/dips dans Reload
-- ❌ Ne pas laisser des cellules de bodyweight vides si vous faites pu/dp ce jour-là
+- ❌ Ne pas laisser des cellules de bodyweight vides si vous faites pu/dp ce jour-là sinon pas de calcul d'e1rm correcte
 - ❌ Ne pas copier-coller manuellement les MAX d'une semaine à l'autre (c'est automatique !)
 
 ### 🔧 Fonctionnement automatique
@@ -442,7 +503,7 @@ Le système fonctionne de manière **entièrement automatique** :
 **R :** Vérifiez :
 - Que vous avez bien noté le bon RPE
 - Que le poids dans Reload est correct
-- Pour pu/dp : que vous avez bien noté uniquement le lest (pas le total)
+- Pour pu/dp : que vous avez bien noté uniquement le lest (pas le total) et que vous avez bien remplis la case bodyweigth de la séance
 
 ### Q3 : Puis-je ajouter des exercices ?
 
@@ -461,11 +522,11 @@ Le système fonctionne de manière **entièrement automatique** :
 
 ### Q6 : Dois-je remplir mon bodyweight si je ne fais pas de pu/dp ?
 
-**R :** Oui, c'est recommandé pour le suivi général de votre poids, mais ce n'est pas obligatoire pour les calculs des autres exercices (sq/bn/dl).
+**R :** C'est recommandé pour le suivi général de votre poids, mais ce n'est pas obligatoire pour les calculs des autres exercices (sq/bn/dl).
 
-### Q7 : Je veux faire un cycle de 12 semaines, pas 10
+### Q7 : Comment je fais une fois que j'ai finis les 10 semaines ?
 
-**R :** Dupliquez une feuille semaine existante et renommez-la "Semaine 11", "Semaine 12", etc. Puis ajoutez les références correspondantes dans "Suivi e1RM".
+**R :** Créer une copie du google sheet que vous venez de finir. Pour cette copie, penser à bien supprimer tout vos Reaload et RPE réel de toutes les semaines. Vous remplissez vos nouveaux MAXs (que vous pouvez voir dans l'ancien) dans la semaine 1. Et c'est repartie !
 
 ### Q8 : Dois-je copier mes Average e1RM dans les MAX de la semaine suivante ?
 
@@ -482,12 +543,16 @@ Le système fonctionne de manière **entièrement automatique** :
 
 **R :** Non, c'est optionnel. Vous pouvez la remplir uniquement sur la première ligne de chaque bloc de séance pour vous repérer visuellement. Elle n'a aucun impact sur les calculs.
 
+### Q11 : Est ce que je peux changer mes séances d'entraînement en plein milieu des 10 semaines ?
+
+**R :** Absolument, vous pouvez les changer autant que vous le souhaitez.
+
 ---
 
 ## 📧 Support
 
 Pour toute question ou suggestion :
-- Email : [ton email]
+- Email : romainben31@gmail.com
 - GitHub Issues : [lien vers issues]
 
 ---
