@@ -276,11 +276,16 @@ Cette valeur sera AUTOMATIQUEMENT utilisée comme MAX (C3) pour la Semaine 2
 
 **Ce que c'est :**
 - La **différence** entre les MAXs rentré en début de semaine et l'e1rm moyen réalisé une fois la semaine finie.
-- En vert si positif (Amélioration) et en rouge sinon
+- En vert si positif (Amélioration) et en rouge sinon.
+
+![Section Progress](img/progressSheet.png)
+
+⚠️ Il faut s'y fier qu'une fois la semaine terminer. En effet au début de la semaine, vous avez des Maxs annoncés à 130 kg pour le squat par exemple, mais vous n'avez pas encore réaliser d'exercice squat dans votre semaine. Il est alors afficher dans la section Progress que vous êtes en -130kg sur le squat ce qui est absurde ;).
 
 
 
-### 6.2 Indice de fatigue
+
+### 6.3 Indice de fatigue
 
 **Où le trouver ?**
 Graphique en bas à droite du sheet appellé "Fatigue Index".
