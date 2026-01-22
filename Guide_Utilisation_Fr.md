@@ -552,8 +552,8 @@ Le système fonctionne de manière **entièrement automatique** :
 ## 📧 Support
 
 Pour toute question ou suggestion :
-- Email : romainben31@gmail.com
-- Linkedin : 
+- 📧 Email : romainben31@gmail.com
+- 🔗 LinkedIn : [romainben](https://www.linkedin.com/in/romainben/)
 
 ---
 
