@@ -553,7 +553,7 @@ Le système fonctionne de manière **entièrement automatique** :
 
 Pour toute question ou suggestion :
 - Email : romainben31@gmail.com
-- GitHub Issues : [lien vers issues]
+- Linkedin : 
 
 ---
 
