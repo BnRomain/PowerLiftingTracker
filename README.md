@@ -1,7 +1,7 @@
 # 🏋️ PowerLift Tracker
 
 [![Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?logo=google-sheets&logoColor=white)](https://www.google.com/sheets/about/)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](Contributing.md)
 
 An intelligent powerlifting tracking system built on Google Sheets, featuring automated e1RM calculations, progressive load management, and fatigue analysis.
 
@@ -75,7 +75,6 @@ Existing apps lacked customization and didn't account for technical aspects like
 - **Nested IF**: Complex conditional logic (up to 6 levels)
 - **IFERROR**: Robust error handling (#N/A, division by zero)
 - **ISNUMBER**: Numeric data validation
-- **ROUNDUP**: Adaptation to equipment standards
 
 ### Data Management
 - Multi-sheet architecture: 1 week = 1 sheet
@@ -211,8 +210,8 @@ Week 2+:
 
 - **[Complete User Guide (French)](Guide_Utilisation_Fr.md)**: Detailed instructions in French
 - **[Complete User Guide (English)](User_Guide_EN.md)**: Detailed instructions in English
-- **[Contributing Guidelines](CONTRIBUTING.md)**: How to contribute to this project
-- **[Changelog](CHANGELOG.md)**: Version history and updates
+- **[Contributing Guidelines](Contributing.md)**: How to contribute to this project
+- **[Changelog](Changelog.md)**: Version history and updates
 
 ---
 
@@ -236,7 +235,7 @@ Contributions are welcome! Here's how you can help:
 4. **Translate** the guide to other languages
 5. **Share your results** and feedback
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
+See [CONTRIBUTING.md](Contributing.md) for detailed guidelines.
 
 ---
 
@@ -293,7 +292,7 @@ Want to share your progress? [Submit your story!](https://github.com/yourusernam
 **GitHub**: [@BnRomain](https://github.com/BnRomain)
 
 For questions, suggestions, or collaboration:
-- 💬 [Open a Discussion](https://github.com/yourusername/powerlift-tracker/discussions)
+- 💬 [Open a Discussion](https://github.com/BnRomain/PowerLiftingTracker/discussions)
 - 🐛 [Report an Issue](https://github.com/BnRomain/PowerLiftingTracker/issues)
 - ✉️ Email me directly
 
@@ -313,6 +312,6 @@ If this project helped you track your powerlifting progress, please consider:
 
 **Built with ❤️ for the powerlifting community**
 
-[Get Started](#-getting-started) • [Documentation](#-documentation) • [Support](#-contact--support)
+[Get Started](https://docs.google.com/spreadsheets/d/1cMEQfgsgYV3C5RC8sq0Xvccz4UgO5aT8dhn19qVybdU/edit?usp=sharing) • [Documentation](User_Guide_EN.md) • [Support]([#-contact--support](https://github.com/BnRomain/PowerLiftingTracker/discussions))
 
 </div>
